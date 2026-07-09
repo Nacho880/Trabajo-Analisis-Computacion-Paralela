@@ -166,12 +166,6 @@ Ver `.env.example`. Las relevantes son:
 
 ## Ejecución
 
-> **Nota sobre el formato del CSV**: el enunciado describe las columnas
-> separadas por coma, pero el archivo real distribuido usa **punto y coma
-> (`;`)** como delimitador y la columna de género se llama `GENERO` (sin
-> tilde). Esto ya está resuelto en `config.CSV_SEPARATOR` y
-> `config.RAW_EXPECTED_COLUMNS`; no requiere ninguna acción de su parte.
-
 1. Descargue `ventas_completas.csv` desde el enlace del enunciado y colóquelo
    en `data/ventas_completas.csv`.
 2. Ejecute:
