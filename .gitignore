@@ -1,0 +1,35 @@
+# --- Datos (el CSV real puede pesar cientos de MB; no se versiona) ---
+data/*.csv
+!data/.gitkeep
+
+# --- Resultados generados por el pipeline (reproducibles vía main.py) ---
+output/figures/*
+output/tables/*
+output/models/*
+output/logs/*
+!output/figures/.gitkeep
+!output/tables/.gitkeep
+!output/models/.gitkeep
+!output/logs/.gitkeep
+
+# --- Entornos virtuales ---
+venv/
+.venv/
+env/
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Variables de entorno locales ---
+.env
+
+# --- Sistema operativo / editores ---
+.DS_Store
+.vscode/
+.idea/

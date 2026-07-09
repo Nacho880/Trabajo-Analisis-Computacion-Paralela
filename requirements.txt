@@ -1,0 +1,34 @@
+# =============================================================================
+# requirements.txt — Análisis Estadístico de Datos de Ventas (Cruz Morada)
+# =============================================================================
+# Instalación: pip install -r requirements.txt
+#
+# Nota sobre versiones: se fijan rangos mínimos compatibles verificados
+# durante el desarrollo, con techo abierto a la siguiente versión mayor para
+# evitar breaking changes no probados. Si su entorno ya tiene versiones más
+# nuevas dentro del rango, no es necesario reinstalar.
+
+# --- Procesamiento de datos y paralelismo ---
+pandas>=2.2,<3.1
+numpy>=1.26,<3.0
+dask[dataframe]>=2024.1.0,<2027.0.0
+
+# --- Estadística e inferencia ---
+scipy>=1.11,<2.0
+statsmodels>=0.14,<1.0
+
+# --- Machine Learning ---
+scikit-learn>=1.3,<2.0
+
+# --- Visualización ---
+matplotlib>=3.8,<4.0
+seaborn>=0.13,<1.0
+
+# --- Persistencia de modelos ---
+joblib>=1.3,<2.0
+
+# --- Monitoreo de rendimiento (CPU, memoria) ---
+psutil>=5.9,<8.0
+
+# --- Testing ---
+pytest>=7.4,<9.0
