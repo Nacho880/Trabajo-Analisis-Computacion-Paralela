@@ -1,13 +1,12 @@
 # Trabajo Analisis — Cruz Morada
 
-Curso: Computación Paralela y Distribuida
-Institución: Universidad Tecnológica Metropolitana (UTEM)
-Entrega: 10 de julio de 2026
-Integrantes:
-
-[Matias Fernandez 20.969.062-4]
-[Camilo Moya 21.230.348-8]
-[Ignacio Ortega 21.481.176-6]
+**Curso:** Computación Paralela y Distribuida  
+**Institución:** Universidad Tecnológica Metropolitana (UTEM)  
+**Entrega:** 10 de julio de 2026  
+**Integrantes:**
+- [Matias Fernandez  20.969.062-4]
+- [Camilo Moya       21.230.348-8]
+- [Ignacio Ortega    21.481.176-6]
 
 Pipeline completo de carga, limpieza, análisis
 exploratorio, inferencia estadística y modelado predictivo/descriptivo sobre
@@ -166,12 +165,6 @@ Ver `.env.example`. Las relevantes son:
   para el paralelismo explícito.
 
 ## Ejecución
-
-> **Nota sobre el formato del CSV**: el enunciado describe las columnas
-> separadas por coma, pero el archivo real distribuido usa **punto y coma
-> (`;`)** como delimitador y la columna de género se llama `GENERO` (sin
-> tilde). Esto ya está resuelto en `config.CSV_SEPARATOR` y
-> `config.RAW_EXPECTED_COLUMNS`; no requiere ninguna acción de su parte.
 
 1. Descargue `ventas_completas.csv` desde el enlace del enunciado y colóquelo
    en `data/ventas_completas.csv`.
